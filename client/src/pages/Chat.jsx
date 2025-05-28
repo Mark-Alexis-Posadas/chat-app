@@ -21,7 +21,7 @@ const Chat = () => {
   };
 
   return (
-    <div>
+    <div className="bg-slate-50 rounded p-2 shadow-md">
       <h2>Chat Room</h2>
       <div>
         {messages.map((msg, index) => (

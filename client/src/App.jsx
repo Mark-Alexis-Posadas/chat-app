@@ -1,8 +1,10 @@
+import { Sidebar } from "./components/Sidebar";
 import Chat from "./pages/Chat";
 
 const App = () => {
   return (
-    <div>
+    <div className="flex">
+      <Sidebar />
       <Chat />
     </div>
   );
